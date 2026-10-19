@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest something Bitvoy should do.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Before posting, search open issues; if your idea is there, add a 👍 to it instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, rather than the solution. "I want to … when …"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you imagine it working in Bitvoy.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Pull requests and review
+        - Review with AI
+        - Code browsing
+        - Pipelines and deployments
+        - Search and Home
+        - Notifications and widgets
+        - Accounts and sign-in
+        - Something else
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional. How other tools do it, mock-ups, screenshots.

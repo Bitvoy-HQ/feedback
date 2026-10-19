@@ -1,0 +1,20 @@
+name: Question
+description: Ask how something in Bitvoy works.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: The [support page](https://bitvoyhq.com/support) answers common questions about sign-in, permissions and Review with AI.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and platform
+      description: Optional, if it's about something in the app.
+      placeholder: 1.0.0 (1), iPhone
