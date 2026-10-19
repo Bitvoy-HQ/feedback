@@ -16,7 +16,9 @@ This repository holds issues only. Bitvoy's source code isn't public.
 - [Request a feature](https://github.com/Bitvoy-HQ/feedback/issues/new?template=feature_request.yml)
 - [Ask a question](https://github.com/Bitvoy-HQ/feedback/issues/new?template=question.yml)
 
-In the app, **Profile → Settings → About & support → Report a bug** opens the bug form with your app version and device filled in.
+In the app, **Profile → About & support → Report a bug** opens the bug form with your app version and device filled in.
+
+You need a free GitHub account to open an issue. No account? Email [hello@bitvoyhq.com](mailto:hello@bitvoyhq.com) instead.
 
 ## Help and privacy
 

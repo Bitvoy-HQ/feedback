@@ -39,7 +39,7 @@ body:
     id: version
     attributes:
       label: App version
-      description: Profile → Settings → About & support → Version.
+      description: Profile → About & support → Version. "Report a bug" in that screen fills this in for you.
       placeholder: 1.0.0 (1)
     validations:
       required: true
